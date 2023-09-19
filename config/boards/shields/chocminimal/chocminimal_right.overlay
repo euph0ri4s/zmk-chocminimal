@@ -1,5 +1,5 @@
 
-#include "chocminimal.dtsl"
+#include "chocminimal.dtsi"
 
 &default_transform {
     col-offset = <4>;
