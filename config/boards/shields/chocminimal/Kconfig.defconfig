@@ -4,7 +4,7 @@ config ZMK_KEYBOARD_NAME
     default "chocminimal"
 
 config ZMK_SPLIT_ROLE_CNTRAL
-    defalt y
+    default y
 
 end if
 
