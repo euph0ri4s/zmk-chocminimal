@@ -4,13 +4,13 @@ config ZMK_KEYBOARD_NAME
     default "chocminimal"
 
 config ZMK_SPLIT_ROLE_CNTRAL
-    defalt y
+    default y
 
-end if
+endif
 
 if SHIELD_CHOCMINMAL_LEFT || SHIELD_CHOCMINIMAL_RIGHT
 
 config ZMK_SPLIT
     default y
 
-end if
+endif
