@@ -11,6 +11,6 @@ end if
 if SHIELD_CHOCMINMAL_LEFT || SHIELD_CHOCMINIMAL_RIGHT
 
 config ZMK_SPLIT
-    defalt y
+    default y
 
 end if
