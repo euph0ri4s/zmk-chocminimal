@@ -14,7 +14,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: two_percent_milk
-include:
+    shield: chocminimal_left
   - board: seeeduino_xiao_ble
-    shield: two_percent_milk
+    sield : chocminimal_right

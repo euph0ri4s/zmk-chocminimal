@@ -1,0 +1,16 @@
+if SHIELD_CHOCMINMAL_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "chocminimal"
+
+config ZMK_SPLIT_ROLE_CNTRAL
+    defalt y
+
+end if
+
+if SHIELD_CHOCMINMAL_LEFT || SHIELD_CHOCMINIMAL_RIGHT
+
+config ZMK_SPLIT
+    defalt y
+
+end if
