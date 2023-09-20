@@ -73,17 +73,17 @@
         compatible = "zmk,keymap";
 
         base_layer {
-            label = LAYER_BASE;
+            label = "LAYER_BASE";
             bindings = <
             &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHIFT T  &hm LSHIFT N &hm LALT E &hm LCTRL I &hm LGUI O
             &kp Z      &kp X       &kp C      &kp D         &kp K        &kp h      &kp COMMA   &kp PERIOD
-                     &lt LAYER_NAV &kp SPACE  &kp BSPACE    &kp TAB      &kp ENTER
+                     &lt LAYER_NAV &kp SPACE  &kp BSPC      &kp TAB      &kp ENTER
                      >;
                      // trackball-bindings = <&tmv_coarse>;
         };
         
         nav_layer {
-            label = LAYER_NAV;
+            label = "LAYER_NAV";
             bindings = <
             &kp L      &kp K     &kp J      &kp H         &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT
             &trans     &trans    &trans     &trans        &trans        &trans      &trans      &trans
