@@ -66,7 +66,7 @@
             label = "LAYER_BASE";
             bindings = <
             &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHIFT T  &hm LSHIFT N &hm LALT E &hm LCTRL I &hm LGUI O
-            &kp Z      &kp X       &kp C      &kp D         &kp H        &kp J      &kp K       &kp OT
+            &kp Z      &kp X       &kp C      &kp D         &kp H        &kp J      &kp K       &kp L
                         &lt LAYER_NAV SPACE   &kp BSPC      &kp TAB      &kp ENTER
                      >;
                      // trackball-bindings = <&tmv_coarse>;
