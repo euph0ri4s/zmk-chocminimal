@@ -55,8 +55,8 @@
         compatible = "zmk,combos";
 
         // Left hand combos
-        COMBO(Q, 1 2 12, LAYER_BASE)
-        COMBO(AT_SIGN, 1 2, LAYER_NAV)
+        COMBO(Q, 1 2 12, LAYER_BASE);
+        COMBO(AT_SIGN, 1 2, LAYER_NAV);
     };
 
     keymap {
