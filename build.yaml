@@ -16,4 +16,4 @@ include:
   - board: seeeduino_xiao_ble
     shield: chocminimal_left
   - board: seeeduino_xiao_ble
-    sield : chocminimal_right
+    shield : chocminimal_right
