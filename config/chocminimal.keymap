@@ -64,7 +64,8 @@
         combo_caps_lock { layers = <1>;
         timeout-ms = <175;
         key-positions = <0 3 4 7>;
-        bindings = <&kp CAPS_LOCK>; };
+        bindings = <&kp CAPS_LOCK>;
+        };
     };
 
     keymap {
