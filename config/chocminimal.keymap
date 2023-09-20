@@ -12,13 +12,13 @@
 // MACROS
 
 // CONFIGRATION
-#define COMBO(NAME, KEYPOS, LAYER) \
-    combo_#NAME { \
-        layers = <LAYER>; \
-        timeout-ms = <40>; \
-        key-position = <KEYPOS>; \
-        bindings = <&kp NAME>; \
-    };
+//#define COMBO(NAME, KEYPOS, LAYER) \
+//    combo_#NAME { \
+//        layers = <LAYER>; \
+//        timeout-ms = <40>; \
+//        key-position = <KEYPOS>; \
+//        bindings = <&kp NAME>; \
+//    };
 
 &lt {
     flavor = "tap-preferred";
@@ -55,8 +55,8 @@
         compatible = "zmk,combos";
 
         // Left hand combos
-        COMBO(Q, 1 2 12, LAYER_BASE);
-        COMBO(AT_SIGN, 1 2, LAYER_NAV);
+        combo_q         { layers = <LAYER_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-position = <0, 11>; bindings = <&kp Q>; };
+        combo_caps_lock { layers = <LAYER_NAV; timeout-ms = <TIMEOUT_COMBO_2; key-position = <0, 3, 4, 7>; bindings = <&kp CAPS_LOCK>; };
     };
 
     keymap {
