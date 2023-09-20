@@ -62,7 +62,7 @@
             bindings = <&kp Q>;
         };
         combo_caps_lock { layers = <1>;
-        timeout-ms = <175;
+        timeout-ms = <175>;
         key-positions = <0 3 4 7>;
         bindings = <&kp CAPS_LOCK>;
         };
