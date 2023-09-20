@@ -1,0 +1,85 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+// LAYERS
+#define LAYER_BASE 0
+#define LAYER_NAV  1
+//#define LAYER_NUM  2
+//#define LAYER_SYN  3
+
+// MACROS
+
+// CONFIGRATION
+#define COMBO(NAME, KEYPOS, LAYER) \
+    combo_#NAME { \
+        layers = <LAYER>; \
+        timeout-ms = <40>; \
+        key-position = <KEYPOS>; \
+        bindings = <&kp NAME>; \
+    };
+
+&lt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <0>;
+};
+
+// define timeout for some functions
+#if !defined TIMEOUT_COMBO_2
+#define TIMEOUT_COMBO_2 175
+#endif
+#if !defined TIMEOUT_COMBO_3
+#define TIMEOUT_COMBO_3 200
+#endif
+#if !defined TIMEOUT_LAYER_HOLD
+#define TIMEOUT_LAYER_HOLD 200
+#endif
+
+// homerow and combos
+/ {
+    behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "homerow_mods";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp> <&kp>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        // Left hand combos
+        COMBO(Q, 1 2 12, LAYER_BASE)
+        COMBO(AT_SIGN, 1 2, LAYER_NAV)
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        base_layer {
+            label = LAYER_BASE;
+            bindings = <
+            &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHIFT T  &hm LSHIFT N &hm LALT E &hm LCTRL I &hm LGUI O
+            &kp Z      &kp X       &kp C      &kp D         &kp K        &kp h      &kp COMMA   &kp PERIOD
+                     &lt LAYER_NAV &kp SPACE  &kp BSPACE    &kp TAB      &kp ENTER
+                     >;
+                     // trackball-bindings = <&tmv_coarse>;
+        };
+        
+        nav_layer {
+            label = LAYER_NAV;
+            bindings = <
+            &kp L      &kp K     &kp J      &kp H         &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT
+            &trans     &trans    &trans     &trans        &trans        &trans      &trans      &trans
+                                 &trans     &trans        &trans        &trans
+                       >;
+        };
+    };
+
+};
