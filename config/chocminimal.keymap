@@ -27,15 +27,15 @@
 };
 
 // define timeout for some functions
-#if !defined TIMEOUT_COMBO_2
-#define TIMEOUT_COMBO_2 175
-#endif
-#if !defined TIMEOUT_COMBO_3
-#define TIMEOUT_COMBO_3 200
-#endif
-#if !defined TIMEOUT_LAYER_HOLD
-#define TIMEOUT_LAYER_HOLD 200
-#endif
+//#if !defined TIMEOUT_COMBO_2
+//#define TIMEOUT_COMBO_2 175
+//#endif
+//#if !defined TIMEOUT_COMBO_3
+//#define TIMEOUT_COMBO_3 200
+//#endif
+//#if !defined TIMEOUT_LAYER_HOLD
+//#define TIMEOUT_LAYER_HOLD 200
+//#endif
 
 // homerow and combos
 / {
@@ -55,8 +55,8 @@
         compatible = "zmk,combos";
 
         // Left hand combos
-        combo_q         { layers = <LAYER_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-position = <0, 11>; bindings = <&kp Q>; };
-        combo_caps_lock { layers = <LAYER_NAV; timeout-ms = <TIMEOUT_COMBO_2; key-position = <0, 3, 4, 7>; bindings = <&kp CAPS_LOCK>; };
+        combo_q         { layers = <LAYER_BASE>; timeout-ms = <175>; key-position = <0, 11>; bindings = <&kp Q>; };
+        combo_caps_lock { layers = <LAYER_NAV; timeout-ms = <175; key-position = <0, 3, 4, 7>; bindings = <&kp CAPS_LOCK>; };
     };
 
     keymap {
