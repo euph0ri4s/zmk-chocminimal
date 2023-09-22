@@ -6,8 +6,8 @@
 // LAYERS
 #define LAYER_BASE 0
 #define LAYER_NAV  1
-//#define LAYER_NUM  2
-//#define LAYER_SYM  3
+#define LAYER_NUM  2
+#define LAYER_SYM  3
 
 // MACROS
 
