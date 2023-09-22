@@ -62,7 +62,7 @@
         combo_B { layers = <0>; timeout-ms = <50>; key-positions = <2 3 4>; bindings = <&kp B>; };
         combo_G { layers = <0>; timeout-ms = <50>; key-positions = <0 3>; bindings = <&kp G>; };
         combo_V { layers = <0>; timeout-ms = <50>; key-positions = <8 11>; bindings = <&kp V>; };
-        combo_COMMA { layers = <0>; timeout-ms = <50>; key-positions = <4 5 6>; bindins = <&kp COMMA>; };
+        combo_COMMA { layers = <0>; timeout-ms = <50>; key-positions = <4 5 6>; bindings = <&kp COMMA>; };
         combo_DOT { layers = <0>; timeout-ms = <50>; key-positions = <4 5>; bindings = <&kp DOT>; };
         combo_U { layers = <0>; timeout-ms = <50>; key-positions = <5 6>; bindings = <&kp U>; };
         combo_Y { layers = <0>; timeout-ms = <50>; key-positions = <6 7>; bindings = <&kp Y>; };
