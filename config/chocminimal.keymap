@@ -88,7 +88,7 @@
             bindings = <
             &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHIFT T        &hm LSHIFT N &hm LALT E &hm LCTRL I &hm LGUI O
             &kp Z      &kp X       &kp C      &kp D               &kp H        &kp J      &kp K       &kp L
-                  &lt LAYER_NAV SPACE    &lt LAYER_SYM BACKSPACE  &kp TAB      &lt LAYER_NUM ENTER
+                       &lt LAYER_NAV SPACE    &lt LAYER_SYM BSPC  &kp TAB      &lt LAYER_NUM ENTER
                     >;
                     // trackball-bindings = <&tmv_coarse>;
         };
