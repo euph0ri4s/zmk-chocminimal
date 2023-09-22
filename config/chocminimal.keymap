@@ -77,7 +77,14 @@
         combo_RBRC { layers = <3>; timeout-ms = <50>; key-positions = <4 12>; bindings = <&kp RBRC>; };
         combo_LPAR { layers = <3>; timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp LPAR>; };
         combo_RPAR { layers = <3>; timeout-ms = <50>; key-positions = <12 13>; bindings = <&kp RPAR>; };
-        combo_caps_lock { layers = <1>; timeout-ms = <50>; key-positions = <0 3 4 7>; bindings = <&kp CAPS>; };
+        combo_CAPS { layers = <1>; timeout-ms = <50>; key-positions = <0 3 4 7>; bindings = <&kp CAPS>; };
+        combo_F9 { layers = <2>; timeout-ms = <50>; key-positions = <3 4>; bindings = <&kp F9>; };
+        combo_F10 { layers = <2>; timeout-ms = <50>; key-positions = <3 5>; bindings = <&kp F10>; };
+        combo_F11 { layers = <2>; timeout-ms = <50>; key-positions = <3 6>; bindings = <&kp F11>; };
+        combo_F12 { layers = <2>; timeout-ms = <50>; key-positions = <3 7>; bindings = <&kp F12>; };
+        combo_N7 { layers = <2>; timeout-ms = <50>; key-positions = <1 4>; bindings = <&kp N7>; };
+        combo_N8 { layers = <2>; timeout-ms = <50>; key-positions = <2 4>; bindings = <&kp N8>; };
+        combo_N9 { layers = <2>; timeout-ms = <50>; key-positions = <3 4>; bindings = <&kp N9>; };
     };
 
     keymap {
@@ -105,8 +112,8 @@
         number_layer {
             label = "LAYER_NUM";
             bindings = <
-            &kp DOT     &kp 4       &kp 5       &kp 6            &kp F5     &kp F6      &kp F7      &kp F8
-            &kp 0       &kp 1       &kp 2       &kp 3            &kp F1     &kp F2      &kp F3      &kp F4
+            &kp DOT     &kp N4      &kp N5      &kp N6           &kp F5     &kp F6      &kp F7      &kp F8
+            &kp N0      &kp N1      &kp N2      &kp N4           &kp F1     &kp F2      &kp F3      &kp F4
                                     &trans      &trans           &trans     &trans
             >;
         };
