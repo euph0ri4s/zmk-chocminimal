@@ -16,7 +16,7 @@
 //    combo_#NAME { \
 //        layers = <LAYER>; \
 //        timeout-ms = <40>; \
-//        key-position = <KEYPOS>; \
+//        key-positions = <KEYPOS>; \
 //        bindings = <&kp NAME>; \
 //    };
 
@@ -56,27 +56,27 @@
 
         // Left hand combos
         combo_Q { layers = <0>; timeout-ms = <50>; key-positions = <0 1 2>; bindings = <&kp Q>; };
-        ombo_W { layers = <0>; timeout-ms = <50>; key-positions = <0 1>; bindings = <&kp W>; };
-        ombo_F { layers = <0>; timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp F>; };
-        ombo_P { layers = <0>; timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp P>; };
-        ombo_B { layers = <0>; timeout-ms = <50>; key-positions = <2 3 4>; bindings = <&kp B>; };
-        ombo_G { layers = <0>; timeout-ms = <50>; key-positions = <0 3>; bindings = <&kp G>; };
-        ombo_V { layers = <0>; timeout-ms = <50>; key-positions = <8 11>; bindings = <&kp V>; };
-        ombo_COMMA { layers = <0>; timeout-ms = <50>; key-positions = <4 5 6>; bindinsg = <&kp COMMA>; };
-        ombo_DOT { layers = <0>; timeout-ms = <50>; key-positions = <4 5>; bindings = <&kp DOT>; };
-        ombo_U { layers = <0>; timeout-ms = <50>; key-positions = <5 6>; bindings = <&kp U>; };
-        ombo_Y { layers = <0>; timeout-ms = <50>; key-positions = <6 7>; bindings = <&kp Y>; };
-        ombo_MINUS { layers = <0>; timeout-ms = <50>; key-positions = <5 6 7>; bindings = <&kp MINUS>; };
-        ombo_M { layers = <0>; timeout-ms = <50>; key-positions = <4 7>; bindings = <&kp M>; };
-        ombo_FSLH { layers = <0>; timeout-ms = <50>; key-positions = <12 15>; bindings = <&kp FSLH>; };
-        ombo_PG_UP { layers = <1>; timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp PG_UP>; };
-        ombo_PG_DN { layers = <1>; timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp PG_DN>; };
-        ombo_LBKT { layers = <3>; timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp LBKT>; };
-        ombo_RBKT { layers = <3>; timeout-ms = <50>; key-positions = <4 5>; bindings = <&kp RBKT>; };
-        ombo_LBRC { layers = <3>; timeout-ms = <50>; key-positions = <3 11>; bindings = <&kp LBRC>; };
-        ombo_RBRC { layers = <3>; timeout-ms = <50>; key-positions = <4 12>; bindings = <&kp RBRC>; };
-        ombo_LPAR { layers = <3>; timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp LPAR>; };
-        ombo_RPAR { layers = <3>; timeout-ms = <50>; key-positions = <12 13>; bindings = <&kp RPAR>; };
+        combo_W { layers = <0>; timeout-ms = <50>; key-positions = <0 1>; bindings = <&kp W>; };
+        combo_F { layers = <0>; timeout-ms = <50>; key-positions = <1 2>; bindings = <&kp F>; };
+        combo_P { layers = <0>; timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp P>; };
+        combo_B { layers = <0>; timeout-ms = <50>; key-positions = <2 3 4>; bindings = <&kp B>; };
+        combo_G { layers = <0>; timeout-ms = <50>; key-positions = <0 3>; bindings = <&kp G>; };
+        combo_V { layers = <0>; timeout-ms = <50>; key-positions = <8 11>; bindings = <&kp V>; };
+        combo_COMMA { layers = <0>; timeout-ms = <50>; key-positions = <4 5 6>; bindins = <&kp COMMA>; };
+        combo_DOT { layers = <0>; timeout-ms = <50>; key-positions = <4 5>; bindings = <&kp DOT>; };
+        combo_U { layers = <0>; timeout-ms = <50>; key-positions = <5 6>; bindings = <&kp U>; };
+        combo_Y { layers = <0>; timeout-ms = <50>; key-positions = <6 7>; bindings = <&kp Y>; };
+        combo_MINUS { layers = <0>; timeout-ms = <50>; key-positions = <5 6 7>; bindings = <&kp MINUS>; };
+        combo_M { layers = <0>; timeout-ms = <50>; key-positions = <4 7>; bindings = <&kp M>; };
+        combo_FSLH { layers = <0>; timeout-ms = <50>; key-positions = <12 15>; bindings = <&kp FSLH>; };
+        combo_PG_UP { layers = <1>; timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp PG_UP>; };
+        combo_PG_DN { layers = <1>; timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp PG_DN>; };
+        combo_LBKT { layers = <3>; timeout-ms = <50>; key-positions = <2 3>; bindings = <&kp LBKT>; };
+        combo_RBKT { layers = <3>; timeout-ms = <50>; key-positions = <4 5>; bindings = <&kp RBKT>; };
+        combo_LBRC { layers = <3>; timeout-ms = <50>; key-positions = <3 11>; bindings = <&kp LBRC>; };
+        combo_RBRC { layers = <3>; timeout-ms = <50>; key-positions = <4 12>; bindings = <&kp RBRC>; };
+        combo_LPAR { layers = <3>; timeout-ms = <50>; key-positions = <10 11>; bindings = <&kp LPAR>; };
+        combo_RPAR { layers = <3>; timeout-ms = <50>; key-positions = <12 13>; bindings = <&kp RPAR>; };
         combo_caps_lock { layers = <1>; timeout-ms = <50>; key-positions = <0 3 4 7>; bindings = <&kp CAPS>; };
     };
 
@@ -89,7 +89,7 @@
             &hm LGUI A &hm LCTRL R &hm LALT S &hm LSHIFT T        &hm LSHIFT N &hm LALT E &hm LCTRL I &hm LGUI O
             &kp Z      &kp X       &kp C      &kp D               &kp H        &kp J      &kp K       &kp L
                        &lt LAYER_NAV SPACE    &lt LAYER_SYM BSPC  &kp TAB      &lt LAYER_NUM ENTER
-                    >;
+            >;
                     // trackball-bindings = <&tmv_coarse>;
         };
         
@@ -99,7 +99,7 @@
             &kp RIGHT  &kp UP	&kp DOWN   &kp LEFT	     &kp LC(HOME)  &kp HOME	    &kp END	    &kp LC(END)
             &kp L	   &kp K	&kp J      &kp H	     &kp C_PP	   &kp C_VOL_UP	&kp C_MUTE	&kp C_VOL_DN
                                 &trans     &trans        &trans        &trans
-                    >;
+            >;
         };
 
         number_layer {
@@ -108,7 +108,7 @@
             &kp DOT     &kp 4       &kp 5       &kp 6            &kp F5     &kp F6      &kp F7      &kp F8
             &kp 0       &kp 1       &kp 2       &kp 3            &kp F1     &kp F2      &kp F3      &kp F4
                                     &trans      &trans           &trans     &trans
-                    >;
+            >;
         };
 
         symbol_layer {
@@ -117,7 +117,7 @@
             &kp EXCL    &kp AT      &kp HASH    &kp DLLR        &kp AMPS    &kp STAR    &kp DQT     &kp SQT
             &kp UNDER   &kp EQUAL   &kp PLUS    &kp PRCNT       &kp BSLH    &kp PIPE    &kp SEMI    &kp COLON
                                     &trans      &trans          &trans      &trans
-                    >;
+            >;
         };
     };
 
