@@ -17,5 +17,5 @@ include:
     shield: chocminimal_left
   - board: seeeduino_xiao_ble
     shield: chocminimal_right
-    board: seeduino_xiao_ble
+    #board: seeduino_xiao_ble
     #shield: settings_reset
