@@ -88,7 +88,7 @@
         combo_N8 { layers = <2>; timeout-ms = <50>; key-positions = <2 4>; bindings = <&kp N8>; };
         combo_N9 { layers = <2>; timeout-ms = <50>; key-positions = <3 4>; bindings = <&kp N9>; };
         combo_DEL { layers = <0>; timeout-ms = <50>; key-positions = <4 12>; bindings = <&kp DEL>; };
-        combo_BSPC { layers = <0>; timeout-ms = <50>; key-positions = <3 11>; bindings = <&kp BSPC>; };
+        combo_ESC { layers = <0>; timeout-ms = <50>; key-positions = <3 11>; bindings = <&kp ESC>; };
     };
 
     keymap {
@@ -99,7 +99,7 @@
             bindings = <
 &hm LGUI A  &hm LALT R   &hm LCTRL S          &hm LSHIFT T          &hm LSHIFT N  &hm LCTRL E          &hm LALT I   &hm LGUI O
 &lt LAYER_BT Z       &kp X        &kp C       &kp D                 &kp H         &kp J                &kp K        &kp L
-                         &lt LAYER_NAV SPACE  &lt LAYER_SYM ESC     &lt LAYER_BT TAB   &lt LAYER_NUM ENTER
+                         &lt LAYER_NAV SPACE  &lt LAYER_SYM BSPC    &lt LAYER_BT TAB   &lt LAYER_NUM ENTER
             >;
 
             // trackball-bindings = <&tmv_coarse>;
