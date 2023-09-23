@@ -304,7 +304,7 @@
             label = "LAYER_BASE";
             bindings = <
 &hm LGUI A      &hm LALT R  &hm LCTRL S          &hm LSHIFT T          &hm LSHIFT N      &hm LCTRL E          &hm LALT I  &hm LGUI O
-&lt LAYER_BT Z  &kp X       &kp C                &kp D                 &kp H             &kp J                &kp K       &lt 2 L
+&lt LAYER_BT Z  &kp X       &kp C                &kp D                 &lt 2 H           &kp J                &kp K       &kp L
                             &lt LAYER_NAV SPACE  &lt LAYER_SYM BSPC    &lt LAYER_BT TAB  &lt LAYER_NUM ENTER
             >;
 
