@@ -7,6 +7,7 @@
 #define LAYER_NAV  1
 #define LAYER_NUM  2
 #define LAYER_SYM  3
+#define LAYER_BT   4
 
 // MACROS
 // CONFIGRATION
@@ -85,7 +86,8 @@
         combo_N7 { layers = <2>; timeout-ms = <50>; key-positions = <1 4>; bindings = <&kp N7>; };
         combo_N8 { layers = <2>; timeout-ms = <50>; key-positions = <2 4>; bindings = <&kp N8>; };
         combo_N9 { layers = <2>; timeout-ms = <50>; key-positions = <3 4>; bindings = <&kp N9>; };
-        combo_ESC { layers = <0>; timeout-ms = <50>; key-positions = <3 11>; bindings = <&kp ESC>; };
+        combo_DEL { layers = <0>; timeout-ms = <50>; key-positions = <4 12>; bindings = <&kp DEL>; };
+        combo_BSPC { layers = <0>; timeout-ms = <50>; key-positions = <3 11>; bindings = <&kp BSPC>; };
     };
 
     keymap {
@@ -96,7 +98,7 @@
             bindings = <
 &hm LGUI A  &hm LCTRL R  &hm LALT S           &hm LSHIFT T          &hm LSHIFT N  &hm LALT E           &hm LCTRL I  &hm LGUI O
 &kp Z       &kp X        &kp C                &kp D                 &kp H         &kp J                &kp K        &kp L
-                         &lt LAYER_NAV SPACE  &lt LAYER_SYM BSPC    &kp TAB       &lt LAYER_NUM ENTER
+                         &lt LAYER_NAV SPACE  &lt LAYER_SYM ESC     &lt LAYRE_BT TAB   &lt LAYER_NUM ENTER
             >;
 
             // trackball-bindings = <&tmv_coarse>;
