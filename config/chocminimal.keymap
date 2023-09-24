@@ -117,7 +117,7 @@
         combo_DOT {
             layers = <0>;
             timeout-ms = <50>;
-            key-positions = <4 7>;
+            key-positions = <4 13>;
             bindings = <&kp PERIOD>;
         };
 
