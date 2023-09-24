@@ -103,7 +103,7 @@
         combo_V {
             layers = <0>;
             timeout-ms = <50>;
-            key-positions = <11 2>;
+            key-positions = <11 1>;
             bindings = <&kp V>;
         };
 
@@ -257,7 +257,7 @@
         combo_delkey {
             layers = <0>;
             timeout-ms = <50>;
-            key-positions = <12 13 14>;
+            key-positions = <12 14>;
             bindings = <&kp DEL>;
         };
 
