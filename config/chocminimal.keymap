@@ -151,7 +151,7 @@
 
         combo_FSLH {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <35>;
             key-positions = <12 5>;
             bindings = <&kp FSLH>;
         };
