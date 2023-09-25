@@ -340,7 +340,7 @@
             label = "LAYER_GAME";
             bindings = <
 &kp LSHFT  &kp A  &kp W      &kp D        &kp R   &kp Q   &kp E   &kp M
-&kp LALT   &kp Q  &kp S      &kp F        &kp N1  &kp N2  &kp N3  &kp N4
+&kp LALT   &kp E  &kp S      &kp F        &kp N1  &kp N2  &kp N3  &kp N4
                   &kp SPACE  &lt 6 ESC    &trans  &trans
             >;
         };
@@ -348,9 +348,9 @@
         game+_layer {
             label = "LAYER_Gplus";
             bindings = <
-&kp N1  &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I  &kp O
-&kp B   &kp Z   &kp X   &kp T     &kp H   &kp J   &kp K  &to 0
-                &trans  &trans    &trans  &trans
+&kp N1   &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I  &kp O
+&kp TAB  &kp B   &kp C   &kp T     &kp H   &kp J   &kp K  &to 0
+                 &trans  &trans    &trans  &trans
             >;
         };
     };
