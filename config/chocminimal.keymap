@@ -10,6 +10,8 @@
 #define LAYER_NUM  2
 #define LAYER_SYM  3
 #define LAYER_BT   4
+#define LAYER_GAME 5
+#define LAYER_G+   6
 
 // MACROS
 // CONFIGRATION
@@ -329,29 +331,27 @@
             label = "LAYER_BT";
             bindings = <
 &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
-&trans  &trans        &trans        &trans          &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans        &to 5           &trans        &trans        &trans        &bt BT_CLR
                       &trans        &trans          &trans        &trans
             >;
         };
 
-        LAYER_Game {
+        game_layer {
+            label = "LAYER_GAME";
             bindings = <
 &kp LSHFT  &kp Q  &kp W      &kp R        &kp N1  &kp N2  &kp N3  &kp N4
 &kp LCTRL  &kp A  &kp S      &kp D        &mkp LCLK   &kp F   &kp B   &kp M
                   &kp SPACE  &lt 6 ESC    &trans  &trans
             >;
-
-            label = "LAYER_Game";
         };
 
-        LAYER_G+ {
+        game+_layer {
+            label = "LAYER_G+";
             bindings = <
 &kp N1    &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I  &kp O
-&kp LALT  &kp Z   &kp X   &kp T     &kp H   &kp J   &kp K  &kp L
+&kp LALT  &kp Z   &kp X   &kp T     &kp H   &kp J   &kp K  &to 0
                   &trans  &trans    &trans  &trans
             >;
-
-            label = "LAYER_G+";
         };
     };
 };
