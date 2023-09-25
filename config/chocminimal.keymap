@@ -332,5 +332,25 @@
                       &trans        &trans          &trans        &trans
             >;
         };
+
+        LAYER_Game {
+            bindings = <
+&kp LSHFT  &kp Q  &kp W      &kp R        &kp N1  &kp N2  &kp N3  &kp N4
+&kp LCTRL  &kp A  &kp S      &kp D        &kp G   &kp F   &kp B   &kp M
+                  &kp SPACE  &lt 6 ESC    &trans  &trans
+            >;
+
+            label = "LAYER_Game";
+        };
+
+        LAYER_G+ {
+            bindings = <
+&kp N1    &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I  &kp O
+&kp LALT  &kp Z   &kp X   &kp T     &kp H   &kp J   &kp K  &kp L
+                  &trans  &trans    &trans  &trans
+            >;
+
+            label = "LAYER_G+";
+        };
     };
 };
