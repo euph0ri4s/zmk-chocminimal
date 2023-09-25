@@ -5,13 +5,13 @@
 
 // LAYERS
 
-#define LAYER_BASE 0
-#define LAYER_NAV  1
-#define LAYER_NUM  2
-#define LAYER_SYM  3
-#define LAYER_BT   4
-#define LAYER_GAME 5
-#define LAYER_G+   6
+#define LAYER_BASE  0
+#define LAYER_NAV   1
+#define LAYER_NUM   2
+#define LAYER_SYM   3
+#define LAYER_BT    4
+#define LAYER_GAME  5
+#define LAYER_Gplus 6
 
 // MACROS
 // CONFIGRATION
@@ -346,7 +346,7 @@
         };
 
         game+_layer {
-            label = "LAYER_G+";
+            label = "LAYER_Gplus";
             bindings = <
 &kp N1    &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I  &kp O
 &kp B  &kp Z   &kp X   &kp T     &kp H   &kp J   &kp K  &to 0
