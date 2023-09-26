@@ -349,7 +349,7 @@
             label = "LAYER_Gplus";
             bindings = <
 &kp N1   &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I   &kp O
-&kp TAB  &kp V   &kp C   &kp T     &kp F1  &kp F2  &kp F3  &kp F4
+&kp TAB  &kp V   &kp C   &kp T     &kp F1  &kp F2  &kp F3  &to 0
                  &trans  &trans    &trans  &trans
             >;
         };
