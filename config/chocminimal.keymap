@@ -1,8 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-//#include <dt-bindings/zmk/mouse.h>
 
+//#include <dt-bindings/zmk/mouse.h>
 // LAYERS
 
 #define LAYER_BASE  0
@@ -63,35 +63,35 @@
 
         combo_Q {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             key-positions = <2 0>;
             bindings = <&kp Q>;
         };
 
         combo_W {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <0 1>;
             bindings = <&kp W>;
         };
 
         combo_F {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <1 2>;
             bindings = <&kp F>;
         };
 
         combo_P {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <55>;
             key-positions = <2 3>;
             bindings = <&kp P>;
         };
 
         combo_B {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             key-positions = <3 1>;
             bindings = <&kp B>;
         };
@@ -105,7 +105,7 @@
 
         combo_V {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <70>;
             key-positions = <11 1>;
             bindings = <&kp V>;
         };
@@ -133,7 +133,7 @@
 
         combo_Y {
             layers = <0>;
-            timeout-ms = <50>;
+            timeout-ms = <60>;
             key-positions = <6 5>;
             bindings = <&kp Y>;
         };
@@ -339,8 +339,8 @@
         game_layer {
             label = "LAYER_GAME";
             bindings = <
-&kp LSHFT  &kp Q  &kp W      &kp F        &kp N1  &kp N2  &kp N3  &kp N4
-&kp M  &kp A  &kp S      &kp D        &kp R   &kp Q   &kp E   &kp LALT
+&kp LSHFT  &kp A  &kp W      &kp D        &kp R   &kp Q   &kp E   &kp M
+&kp LALT   &kp E  &kp S      &kp F        &kp N1  &kp N2  &kp N3  &kp N4
                   &kp SPACE  &lt 6 ESC    &trans  &trans
             >;
         };
@@ -348,9 +348,9 @@
         game+_layer {
             label = "LAYER_Gplus";
             bindings = <
-&kp N1    &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I  &kp O
-&kp B  &kp Z   &kp X   &kp T     &kp H   &kp J   &kp K  &to 0
-                  &trans  &trans    &trans  &trans
+&kp N1   &kp N2  &kp N3  &kp N4    &kp N   &kp E   &kp I   &kp O
+&kp TAB  &kp V   &kp C   &kp T     &kp F1  &kp F2  &kp F3  &to 0
+                 &trans  &trans    &trans  &trans
             >;
         };
     };
