@@ -337,7 +337,7 @@
             label = "LAYER_SYM2";
             bindings = <
 &trans   &trans &trans  &trans    &kp INT3  &trans  &trans  &trans
-&kp INT1 &trans &trans  &INT5     &kp INT4  &trans  &trans  &trans
+&kp INT1 &trans &trans  &kp INT5  &kp INT4  &trans  &trans  &trans
               &trans    &trans    &trans    &trans
             >;
         };
