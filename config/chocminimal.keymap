@@ -336,8 +336,8 @@
         symbol2_layer {
             label = "LAYER_SYM2";
             bindings = <
-&trans   &trans &trans  &trans    &kp INT3  &trans  &trans  &trans
-&kp INT1 &trans &trans  &kp INT5  &kp INT4  &trans  &trans  &trans
+&kp GRAVE &trans &trans  &trans    &kp INT3  &trans  &trans  &trans
+&kp INT1  &trans &trans  &kp INT5  &kp INT4  &trans  &trans  &trans
               &trans    &trans    &trans    &trans
             >;
         };
@@ -346,7 +346,7 @@
             label = "LAYER_BT";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
-&trans      &trans        &trans        &to 5           &trans        &trans        &trans        &bt BT_CLR
+&trans      &trans        &trans        &to LAYER_GAME  &trans        &trans        &trans        &bt BT_CLR
                           &trans        &trans          &trans        &trans
             >;
         };
