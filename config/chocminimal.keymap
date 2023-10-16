@@ -9,9 +9,10 @@
 #define LAYER_NAV   1
 #define LAYER_NUM   2
 #define LAYER_SYM   3
-#define LAYER_BT    4
-#define LAYER_GAME  5
-#define LAYER_Gplus 6
+#define LAYER_SYM2  4
+#define LAYER_BT    5
+#define LAYER_GAME  6
+#define LAYER_Gplus 7
 
 // MACROS
 // CONFIGRATION
@@ -298,8 +299,8 @@
             label = "LAYER_BASE";
             bindings = <
 &hm LGUI A      &hm LALT R  &hm LCTRL S          &hm LSHIFT T    &hm LSHIFT N      &hm LCTRL E          &hm LALT I  &hm LGUI O
-&lt LAYER_BT Z  &kp X       &kp C                &kp D           &lt 2 H           &kp J                &kp K       &kp L
-                            &lt LAYER_NAV SPACE  &key_repeat     &lt LAYER_BT TAB  &lt LAYER_NUM ENTER
+&lt LAYER_BT Z  &kp X       &kp C                &kp D           &lt 2 H           &kp J                &kp K       &LAYER_SYM2 L
+                &lt LAYER_NAV SPACE  &lt LAYER_SYM BACKSPACE     &lt LAYER_BT TAB  &lt LAYER_NUM ENTER
             >;
 
             // trackball-bindings = <&tmv_coarse>;
@@ -329,6 +330,15 @@
 &kp EXCL   &kp AT     &kp HASH  &kp DLLR     &kp AMPS  &kp STAR  &kp DQT   &kp SQT
 &kp UNDER  &kp EQUAL  &kp PLUS  &kp PRCNT    &kp BSLH  &kp PIPE  &kp SEMI  &kp COLON
                       &trans    &trans       &trans    &trans
+            >;
+        };
+
+        symbol2_layer {
+            label = "LAYER_SYM2";
+            bindings = <
+&trans   &trans &trans  &trans    &kp INT3  &trans  &trans  &trans
+&kp INT1 &trans &trans  &INT5     &kp INT4  &trans  &trans  &trans
+              &trans    &trans    &trans    &trans
             >;
         };
 
