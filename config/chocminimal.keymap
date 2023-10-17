@@ -336,9 +336,9 @@
         symbol2_layer {
             label = "LAYER_SYM2";
             bindings = <
-&kp GRAVE &trans &trans  &trans    &kp INT3  &trans  &trans  &trans
-&kp INT1  &trans &trans  &kp INT5  &kp INT4  &trans  &trans  &trans
-              &trans    &trans    &trans    &trans
+&kp GRAVE     &trans &trans  &kp INT5    &kp INT4  &trans  &trans  &trans
+&kp LS(INT1)  &trans &trans  &trans      &kp INT3  &kp LESS_than  &kp GRRATER_THAN  &trans
+                  &trans    &trans      &trans    &trans
             >;
         };
 
