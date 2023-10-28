@@ -185,9 +185,9 @@
         mouse_layer {
             label = "LAYER_MOUSE";
             bindings = <
-&trans          &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT       &mwh SCROLL_LEFT  &mwh SCROLL_UP   &mwh SCROLL_RIGHT   &trans
-&to LAYER_BASE  &trans          &mmv MOVE_DOWN  &trans                &trans            &mwh SCROLL_DOWN &trans              &to LAYER_BASE
-                                &mkp LCLK       &mkp RCLK             &mkp RCLK         &mkp LCLK
+&trans          &mmv MMV_L  &mmv MMV_U  &mmv MMV_R      &mwh MWH_L  &mwh MWH_U  &mwh MWH_R   &trans
+&to LAYER_BASE  &trans      &mmv MMV_D  &trans          &trans      &mwh MWH_D  &trans       &to LAYER_BASE
+                            &mkp LCLK   &mkp RCLK                &mkp RCLK  &mkp LCLK
             >;
         };
 
