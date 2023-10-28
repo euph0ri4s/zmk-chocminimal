@@ -95,7 +95,7 @@
         COMBO(U, 0, 50, 4 12)
         COMBO(Y, 0, 60, 6 14)
         COMBO(MINUS, 0, 50, 10 11)
-        COMBO(M, 0, 50, 10 15)
+        COMBO(M, 0, 50, 7 15)
         COMBO(FSLH, 0, 35, 5 12)
         COMBO(LBKT, 3, 50, 9 10)
         COMBO(RBKT, 3, 50, 13 14)
@@ -123,9 +123,9 @@
             label = "LAYER_BASE";
             bindings = <
                                                                        
-&hm LGUI A         &hm LALT R  &hm LCTRL S   &hm LSHIFT T          &hm LSHIFT N  &hm LCTRL E &hm LALT I  &hm LGUI O
-&lt LAYER_MOUSE Z  &kp X       &kp C         &kp D                 &kp H         &kp J       &kp K       &lt LAYER_SYM2 L
-                   &lt LAYER_NAV SPACE  &lt LAYER_SYM BACKSPACE    &lt LAYER_BT TAB     &lt LAYER_NUM ENTER
+&hm LGUI A         &hm LALT R  &hm LCTRL S   &hm LSHIFT T          &hm LSHIFT N      &hm LCTRL E &hm LALT I  &hm LGUI O
+&lt LAYER_MOUSE Z  &kp X       &kp C         &kp D                 &lt LAYER_NUM H   &kp J       &kp K       &lt LAYER_SYM2 L
+                   &lt LAYER_NAV SPACE  &lt LAYER_SYM BACKSPACE    &lt LAYER_BT TAB  &lt LAYER_NUM ENTER
             >;
 
             //trackball-bindings = <&tmv_coarse>;
