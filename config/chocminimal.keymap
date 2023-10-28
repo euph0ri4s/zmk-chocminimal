@@ -188,6 +188,7 @@
 &trans          &mmv MMV_L  &mmv MMV_U  &mmv MMV_R      &tmwh MWH_L &mwh MWH_U  &tmwh MWH_R  &trans
 &to LAYER_BASE  &trans      &mmv MMV_D  &trans          &trans      &mwh MWH_D  &trans       &to LAYER_BASE
                             &mkp LCLK   &mkp RCLK                &mkp RCLK  &mkp LCLK
+            >;
         };
 
         game_layer {
