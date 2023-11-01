@@ -17,10 +17,10 @@
 
 
 // MOUSE MOVE SETTINGS
-#define MMV_U MOVE_VERT(-650)
-#define MMV_D MOVE_VERT(650)
-#define MMV_L MOVE_HOR(-650)
-#define MMV_R MOVE_HOR(650)
+#define MMV_U MOVE_VERT(-1600)
+#define MMV_D MOVE_VERT(1600)
+#define MMV_L MOVE_HOR(-1600)
+#define MMV_R MOVE_HOR(0600)
 
 &mmv {
     time-to-max-speed-ms = <500>;
@@ -28,10 +28,10 @@
 };
 
 // MOUSE SCROLL SETTINGS
-#define MWH_U SCROLL_VERT(-650)
-#define MWH_D SCROLL_VERT(650)
-#define MWH_L SCROLL_HOR(-650)
-#define MWH_R SCROLL_HOR(650)
+#define MWH_U SCROLL_VERT(65)
+#define MWH_D SCROLL_VERT(-65)
+#define MWH_L SCROLL_HOR(-65)
+#define MWH_R SCROLL_HOR(65)
 
 &mwh {
     time-to-max-speed-ms = <2000>;
@@ -97,13 +97,10 @@
         COMBO(MINUS, 0, 50, 10 11)
         COMBO(M, 0, 50, 7 15)
         COMBO(FSLH, 0, 35, 5 12)
-        COMBO(LBKT, 3, 50, 9 10)
-        COMBO(RBKT, 3, 50, 13 14)
-        COMBO(LBRC, 3, 50, 3 11)
-        COMBO(RBRC, 3, 50, 4 12)
-        COMBO(LPAR, 3, 50, 2 3)
-        COMBO(RPAR, 3, 50, 4 5)
         COMBO(CAPS, 0, 50, 14 15)
+        COMBO(DEL, 0, 50, 5 6)
+        COMBO(ENTER, 0, 50, 12 13)
+        COMBO(TAB, 0, 50, 16 17)
         COMBO(F9, 2, 50, 6 7)
         COMBO(F10, 2, 50, 12 13)
         COMBO(F11, 2, 50, 13 14)
@@ -111,9 +108,12 @@
         COMBO(N7, 2, 50, 1 9)
         COMBO(N8, 2, 50, 1 3)
         COMBO(N9, 2, 50, 3 11)
-        COMBO(DEL, 0, 50, 5 6)
-        COMBO(ENTER, 0, 50, 12 13)
-        COMBO(TAB, 0, 50, 16 17)
+        COMBO(LBKT, 3, 50, 9 10)
+        COMBO(RBKT, 3, 50, 13 14)
+        COMBO(LBRC, 3, 50, 3 11)
+        COMBO(RBRC, 3, 50, 4 12)
+        COMBO(LPAR, 3, 50, 2 3)
+        COMBO(RPAR, 3, 50, 4 5)
     };
 
     keymap {
@@ -186,7 +186,7 @@
             label = "LAYER_MOUSE";
             bindings = <
 &trans          &mmv MMV_L  &mmv MMV_U  &mmv MMV_R      &mwh MWH_L  &mwh MWH_U  &mwh MWH_R   &trans
-&to LAYER_BASE  &trans      &mmv MMV_D  &trans          &trans      &mwh MWH_D  &trans       &to LAYER_BT
+&to LAYER_BASE  &trans      &mmv MMV_D  &trans          &trans      &mwh MWH_D  &trans       &lt LAYER_BT
                             &mkp LCLK   &mkp RCLK                &mkp RCLK  &mkp LCLK
             >;
         };
