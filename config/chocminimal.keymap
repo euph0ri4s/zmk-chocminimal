@@ -20,7 +20,7 @@
 #define MMV_U MOVE_VERT(-1600)
 #define MMV_D MOVE_VERT(1600)
 #define MMV_L MOVE_HOR(-1600)
-#define MMV_R MOVE_HOR(0600)
+#define MMV_R MOVE_HOR(1600)
 
 &mmv {
     time-to-max-speed-ms = <500>;
