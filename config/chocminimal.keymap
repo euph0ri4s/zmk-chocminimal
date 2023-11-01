@@ -186,7 +186,7 @@
             label = "LAYER_MOUSE";
             bindings = <
 &trans          &mmv MMV_L  &mmv MMV_U  &mmv MMV_R      &mwh MWH_L  &mwh MWH_U  &mwh MWH_R   &trans
-&to LAYER_BASE  &trans      &mmv MMV_D  &trans          &trans      &mwh MWH_D  &trans       &to LAYER_BASE
+&to LAYER_BASE  &trans      &mmv MMV_D  &trans          &trans      &mwh MWH_D  &trans       &to LAYER_BT
                             &mkp LCLK   &mkp RCLK                &mkp RCLK  &mkp LCLK
             >;
         };
